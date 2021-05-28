@@ -6,8 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0]
+### Uncategorized
+- Update release automation actions
+- Fix changelog
+
 ## [0.0.1]
 ### Uncategorized
 - Fix some stuff
 
-[Unreleased]: https://github.com/MetaMask/monorepo-actions-test/
+[Unreleased]: https://github.com/MetaMask/actions-test-repo/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/MetaMask/actions-test-repo/compare/v0.0.1...v0.1.0
+[0.0.1]: https://github.com/MetaMask/actions-test-repo/releases/tag/v0.0.1
