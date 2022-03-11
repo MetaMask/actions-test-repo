@@ -22,7 +22,7 @@ jobs:
           # We want the head / feature branch to be checked out, and we will
           # compare it to the base branch in the action.
           ref: ${{ github.event.pull_request.head.ref }}
-      - uses: MetaMask/action-require-additional-reviewer@v1
+      - uses: MetaMask/action-require-additional-reviewer@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
