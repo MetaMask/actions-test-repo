@@ -13,7 +13,7 @@ jobs:
       statuses: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
         with:
           # If the base branch has been merged into the release branch, we
           # need to find the earliest common ancestor commit of the base and
@@ -22,7 +22,7 @@ jobs:
           # We want the head / feature branch to be checked out, and we will
           # compare it to the base branch in the action.
           ref: ${{ github.event.pull_request.head.ref }}
-      - uses: MetaMask/action-require-additional-reviewer@v1.0.2
+      - uses: MetaMask/action-require-additional-reviewer@af8420ae5a363e63f46ab195a109180ca52c730f # v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
